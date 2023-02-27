@@ -16,7 +16,12 @@ Build a fullstack E-commerce website with the help of Springboot as backend, Ang
 
 
 
-: : In third commit I define routes, configure router and define router outlet. Setup router links to pass category id param, enhance ProductListComponent to read category id. Modify backend REST repository according to search product based on their category and lastly update Angular service to call new URL on Spring Boot app.
+: : In third commit I define routes, configure router and define router outlet. Setup router links to pass category id param, enhance ProductListComponent to read category id. Modify backend REST repository according to search product based on their category and lastly update Angular service to call new URL on Spring Boot app. The changes looks like after commit is:-
 
 ![image](https://user-images.githubusercontent.com/100702414/221435113-1b24f2bc-5334-4c1b-bfba-d705f2c711b6.png)
+
+: : Now, In this commit I have change the Spring Boot app to expose the entity ids, Create a class ProductCategory and new component in angular. Enhance component to read data from product service. In HTML remove hardcoded links with menu component. The changes looks like after commit is:-
+
+![image](https://user-images.githubusercontent.com/100702414/221657583-c2f1bf89-aa87-4041-bc13-a80e538ca7ef.png)
+
 
