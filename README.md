@@ -32,4 +32,7 @@ Build a fullstack E-commerce website with the help of Springboot as backend, Ang
 <b>If no product is listed as per search</b>
 ![image](https://user-images.githubusercontent.com/100702414/221685081-e5ee16ef-0fbf-429c-996b-f19e5256aa23.png)
 
+: : In this commit I added functionality to fetch the individual master detail of a product by its Id on Angular, for this I created a new component for product details and add new router for it, add that router links to product-grid-list HTML page. Enhance ProductDetailComponent to retrieve product from ProductService, update ProductService to call the URL on Spring Boot and update HTML page for ProductDetailsComponent to display product details. The changes looks like after commit is:-
+
+![image](https://user-images.githubusercontent.com/100702414/221973150-f5996f49-6bb7-48fe-a901-ccfa5c0b74de.png)
 
