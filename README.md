@@ -36,3 +36,6 @@ Build a fullstack E-commerce website with the help of Springboot as backend, Ang
 
 ![image](https://user-images.githubusercontent.com/100702414/221973150-f5996f49-6bb7-48fe-a901-ccfa5c0b74de.png)
 
+: : In this commit pagination functionality is added in the product list either go by category or search by any keyword pagination will worked. On top of that I added Max size of a page row which will show on the client side and also added boundary links. The changes looks like after commit is:-
+
+![image](https://user-images.githubusercontent.com/100702414/222967268-5f53f310-f884-457c-9337-cbbe50c3e26d.png)
